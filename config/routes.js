@@ -28,21 +28,26 @@
 
 module.exports.routes = {
 
-  '/' : {
-    controller : 'home'
-  },
+    '/': {
+        controller: 'home'
+    },
 
-  '/login' : {
-    controller : 'auth',
-    action     : 'index'
-  },
+    '/login': {
+        controller: 'auth',
+        action: 'index'
+    },
 
-  '/logout' : {
-    controller : 'auth',
-    action     : 'logout'
-  }
+    '/logout': {
+        controller: 'auth',
+        action: 'logout'
+    },
 
-  /*
+    '/user': {
+        controller: 'user',
+        action: 'index'
+    }
+
+    /*
   // By default, your root route (aka home page) points to a view
   // located at `views/home/index.ejs`
   // 
@@ -178,4 +183,3 @@ module.exports.routes = {
  * Finally, if nothing else matched, the default 404 handler is triggered.
  * See `config/404.js` to adjust your app's 404 logic.
  */
- 

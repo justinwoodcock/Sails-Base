@@ -7,7 +7,6 @@ var passport = require('passport'),
 
 var verifyHandler = function(token, tokenSecret, profile, done) {
     process.nextTick(function() {
-
         User.findOne({
             uid: profile.id
         }).done(function(err, user) {

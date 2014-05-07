@@ -49,3 +49,4 @@ config/local.js
 # ui stuff
 ########################
 assets/bower_components
+.sass-cache
