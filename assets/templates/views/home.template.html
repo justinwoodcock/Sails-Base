@@ -1,0 +1,10 @@
+<h1>Hi {{name}}</h1>
+<p>You've successfully logged in.</p>
+<a class="btn btn-primary" href="/logout">Logout</a>
+<h2>User Model</h2>
+<table class="table">
+    <tr ng-repeat="(key, val) in userProfile">
+        <td>{{key}}: </td>
+        <td>{{val}}</td>
+    </tr>
+</table>
