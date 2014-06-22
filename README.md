@@ -1,4 +1,4 @@
-# ng-Sails
+# Sails Base
 ### boilerplate for Sails / Angular webapp.
 
 ### Stack
