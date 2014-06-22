@@ -1,4 +1,4 @@
-# Sails Base
+# ![Sails Logo](https://raw.githubusercontent.com/justinwoodcock/Sails-Base/master/assets/images/sails.png)  Sails Base
 ### boilerplate for Sails / Angular webapp.
 
 ### Stack
